@@ -19,11 +19,6 @@ public class ejercicio14 {
         for (int y:numerosDesordenados) {
             System.out.print(y+" ");
         }
-        /*
-        System.out.println("\nEn forma descendente:");
-        for (int w= numerosDesordenados.length-1; w>=0; w--) {
-            System.out.print(numerosDesordenados[w]+" ");
-        }*/
 
         for (int r = 0; r < numerosDesordenados.length-1; r++) {
             for (int j = 0; j < numerosDesordenados.length-1; j++) {

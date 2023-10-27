@@ -21,9 +21,15 @@ public class ejercicio21 {
             System.out.print(y+" ");
         }
 
+        for (int i = 0; i < numeros.length/2; i++) {
+            int aux=numeros[numeros.length-1-i];
+            numeros[numeros.length-1-i] = numeros[i];
+            numeros[i] = aux;
+        }
+
         System.out.println("\nArray invertido: ");
-        for (int i = numeros.length-1; i >= 0; i--) {
-            System.out.print(numeros[i]+" ");
+        for (int i:numeros) {
+            System.out.print(i+" ");
         }
     }
 }

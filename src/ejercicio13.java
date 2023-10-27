@@ -9,8 +9,8 @@ public class ejercicio13 {
                 "Alakazam", "Arcanine", "Lapras", "Golem", "Gyarados", "Rhydon" };
         int opcion;
 
-        System.out.print("Ingrese el numero de rango que quiere saber su contenido (0-9): ");
-        opcion = scanner.nextInt();
+            System.out.print("Ingrese el numero de rango que quiere saber su contenido (0-"+nombresPokemonB.length+"): ");
+            opcion = scanner.nextInt();
 
         if (opcion>=0 && opcion< nombresPokemonB.length){
             System.out.println("\nEl pokemon en esa posicion es: "+nombresPokemonB[opcion]);
